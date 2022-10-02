@@ -13,16 +13,18 @@
 
 <h2>Employee Info</h2>
 <br>
-<form:form action="" modelAttribute="employee"></form:form>
-Name <form:input path="name"/>
-<br><br>
-Surname<from:form path="surname"/>
-<br><br>
-Surname<from:form path="department"/>
-<br><br>
-Surname<from:form path="salary"/>
-<br><br>
-<input type="submit" value="OK">
+<form:form action="" modelAttribute="employee">
+    <form:hidden path="id"/>
+    Name <form:input path="name"/>
+    <br><br>
+    Surname<from:form path="surname"/>
+    <br><br>
+    Surname<from:form path="department"/>
+    <br><br>
+    Surname<from:form path="salary"/>
+    <br><br>
+    <input type="submit" value="OK">
+</form:form>
 </body>
 </html>
 >
